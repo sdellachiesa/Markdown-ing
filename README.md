@@ -16,8 +16,10 @@ journey
 		I passed the exam with destinction!: 5: Me
 		Friend barely gets passing marks: 2: Friend
 ```
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
+```
