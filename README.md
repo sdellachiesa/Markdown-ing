@@ -1,25 +1,18 @@
-# Markdown-ing
-teting markdown for readme files
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
 ```
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+journey
+	title Me studying for exams
+	section Exam is announced
+		I start studying: 1: Me
+		Make notes: 2: Me
+		Ask friend for help: 3: Me, Friend
+		We study togther: 5: Me, Friend
+	section Exam Day
+		Syllabys is incomplete: 2: Me
+		Give exam: 1: Me, Friend
+	section Result Declared
+		I passed the exam with destinction!: 5: Me
+		Friend barely gets passing marks: 2: Friend
 ```
